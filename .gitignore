@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/LearnASP.netMVCFromEdureka3.1/FileContentIndex
+/.vs/LearnASP.netMVCFromEdureka3.1/DesignTimeBuild
+/.vs/LearnASP.netMVCFromEdureka3.1/v17/.suo
