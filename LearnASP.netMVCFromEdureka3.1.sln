@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnASP.netMVCFromEdureka3.1", "LearnASP.netMVCFromEdureka3.1\LearnASP.netMVCFromEdureka3.1.csproj", "{BDF2DBD6-5929-43C9-AF93-C7CFD28BDAAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDF2DBD6-5929-43C9-AF93-C7CFD28BDAAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDF2DBD6-5929-43C9-AF93-C7CFD28BDAAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDF2DBD6-5929-43C9-AF93-C7CFD28BDAAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDF2DBD6-5929-43C9-AF93-C7CFD28BDAAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {897EC8F6-3856-4932-BF1D-8A23072D3236}
+	EndGlobalSection
+EndGlobal
