@@ -1,3 +1,4 @@
+using LearnASP.netMVCFromEdureka3._1.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -19,6 +20,10 @@ namespace LearnASP.netMVCFromEdureka3._1
         {
             //[BJ]: This will activate all the services required to return views
             services.AddControllersWithViews();
+
+            //[BJ]: Activate service for IStoreRepository
+            services.AddScoped<IStoreRepository,ProductsInMemoryRepo>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
