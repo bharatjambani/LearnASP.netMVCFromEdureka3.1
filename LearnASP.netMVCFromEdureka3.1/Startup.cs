@@ -17,6 +17,8 @@ namespace LearnASP.netMVCFromEdureka3._1
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            //[BJ]: This will activate all the services required to return views
+            services.AddControllersWithViews();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -36,12 +38,22 @@ namespace LearnASP.netMVCFromEdureka3._1
 
             app.UseRouting();
 
+            //app.UseEndpoints(endpoints =>
+            //{
+            //    endpoints.MapGet("/", async context =>
+            //    {
+            //        await context.Response.WriteAsync("Hello World!");
+            //    });
+            //});
+
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGet("/", async context =>
-                {
-                    await context.Response.WriteAsync("Hello World!");
-                });
+                endpoints.MapDefaultControllerRoute();//[BJ]: Home is the default controller and Index is the action method
+            });
+
+            app.Run(async (context) =>
+            {
+                await context.Response.WriteAsync("Startup -> Run method called");
             });
         }
     }
